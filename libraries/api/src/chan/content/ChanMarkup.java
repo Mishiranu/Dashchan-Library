@@ -84,6 +84,11 @@ public abstract class ChanMarkup {
 	public static final int TAG_QUOTE = BuildConfig.Private.expr();
 
 	/**
+	 * Emphasis tag constant value.
+	 */
+	public static final int TAG_EMPHASIS = BuildConfig.Private.expr();
+
+	/**
 	 * Code tag constant value.
 	 */
 	public static final int TAG_CODE = BuildConfig.Private.expr();
