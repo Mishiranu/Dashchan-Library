@@ -96,6 +96,11 @@ public final class ApiException extends Exception {
 	public static final int SEND_ERROR_FILES_LIMIT = BuildConfig.Private.expr();
 
 	/**
+	 * <p>User's IP range has been blocked.</p>
+	 */
+	public static final int SEND_ERROR_RANGE_BANNED = BuildConfig.Private.expr();
+
+	/**
 	 * <p>No access to delete posts: unsupported or canceled operation.</p>
 	 */
 	public static final int DELETE_ERROR_NO_ACCESS = BuildConfig.Private.expr();
